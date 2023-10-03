@@ -10,9 +10,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         getData() ;
+
+        demo() ;
     }
 
     fun getData(){
         Toast.makeText(this,"this is second commit",Toast.LENGTH_LONG).show()
     }
+
+    fun demo(){
+        Toast.makeText(this,"third commit",Toast.LENGTH_LONG).show()
+    }
+
 }
